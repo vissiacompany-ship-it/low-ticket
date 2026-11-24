@@ -1,0 +1,5 @@
+{
+  "name": "low-ticket",
+  "version": "1.0.0",
+  "description": "Esteira low ticket. Para começar uma oferta do zero use lt-nova-oferta (conduz todas as etapas). Skills: oferta (lt-oferta), copy da página (lt-copy-pagina), vídeo dos 3 passos (lt-video-passos), roteiro do vídeo de tela (lt-video-demo), página de vendas (lt-pagina), criativos em imagem (lt-criativos-imagem), criativos em vídeo gravados por takes (lt-criativos-video) e banner do checkout (lt-banner-checkout). Base: metodologia Kamilla + Anúncio Pronto."
+}

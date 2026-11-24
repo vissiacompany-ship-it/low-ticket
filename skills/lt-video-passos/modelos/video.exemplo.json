@@ -1,0 +1,47 @@
+{
+  "fonte": "Plus Jakarta Sans",
+  "cores": {
+    "pri": "#0042FF",
+    "pill": "#2D2BE8",
+    "base": "#3A1FE0",
+    "blobs": ["#B15CFF", "#1E3BFF", "#7B3CF0", "#4A2BFF"]
+  },
+  "passos": [
+    {
+      "titulo": "Escolha o anúncio do seu negócio",
+      "demo": {
+        "tipo": "galeria",
+        "estilo": "anuncio",
+        "proporcao": "4/5",
+        "escolhido": 0,
+        "itens": [
+          {"imagem": "assets/modelo-1.webp", "faixa": "Manicure no [Seu Bairro]", "titulo": "Unhas feitas perto de casa"},
+          {"imagem": "assets/modelo-2.webp", "faixa": "Barbearia no [Seu Bairro]", "titulo": "Corte e barba sem fila"},
+          {"imagem": "assets/modelo-3.webp", "faixa": "Atendo no [Seu Bairro]", "titulo": "Eletricista hoje no seu bairro"},
+          {"imagem": "assets/modelo-4.webp", "faixa": "Diarista no [Seu Bairro]", "titulo": "Sua casa limpa nesta semana"},
+          {"imagem": "assets/modelo-5.webp", "faixa": "Pet no [Seu Bairro]", "titulo": "Banho e tosa perto de você"},
+          {"imagem": "assets/modelo-6.webp", "faixa": "Reforço no [Seu Bairro]", "titulo": "Aula particular sem sair do bairro"},
+          {"imagem": "assets/modelo-7.webp", "faixa": "Oficina no [Seu Bairro]", "titulo": "Revisão sem enrolação"},
+          {"imagem": "assets/modelo-8.webp", "faixa": "Estética no [Seu Bairro]", "titulo": "Limpeza de pele perto de casa"}
+        ]
+      }
+    },
+    {
+      "titulo": "Marque o raio no mapa",
+      "demo": {"tipo": "mapa", "etiqueta": "📍 Só para quem mora perto", "icone": "💬"}
+    },
+    {
+      "titulo": "Ligue com R$ 10 por dia",
+      "demo": {
+        "tipo": "conversa",
+        "esquerda": {"imagem": "assets/modelo-1.webp", "faixa": "Manicure no [Seu Bairro]", "titulo": "Unhas feitas perto de casa", "estilo": "anuncio"}
+      }
+    }
+  ],
+  "fechamento": {
+    "titulo": "Tudo pronto.",
+    "frases": ["É só escolher,", "marcar o raio", "e ligar."],
+    "contador": {"icone": "whatsapp", "de": 3, "ate": 45}
+  },
+  "logo": "assets/logo.webp"
+}

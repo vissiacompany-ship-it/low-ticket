@@ -1,0 +1,357 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Playbook Criativos em Vídeo</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"><style>
+:root{--ink:#12294F;--tx:#3A5478;--mut:#6B84A3;--blue:#1E63D6;--co:#F4511E;--line:#D4E6F7;--bg:#F3F8FD}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#DDE7F1;font-family:'DM Sans',system-ui,sans-serif;color:var(--tx);-webkit-font-smoothing:antialiased}
+.top{position:sticky;top:0;z-index:20;display:flex;gap:6px;align-items:center;padding:10px 20px;background:var(--ink);overflow-x:auto}
+.top a{color:#fff;text-decoration:none;font-size:13px;font-weight:600;padding:7px 14px;border-radius:99px;background:#ffffff18;white-space:nowrap}.top a:hover{background:var(--co)}
+.top .t{color:#9FC3EA;font-size:12px;letter-spacing:.18em;text-transform:uppercase;margin-right:10px;white-space:nowrap}
+.page{position:relative;width:min(1500px,96vw);min-height:min(940px,62vw);margin:28px auto;padding:92px 90px 80px;
+ background:radial-gradient(circle,#c9dcf0 1px,transparent 1.3px) 0 0/22px 22px,linear-gradient(160deg,#fff 0%,#F3F8FD 55%,#E6F1FB 100%);
+ box-shadow:0 20px 60px -30px #12294f66;border-radius:6px;scroll-margin-top:60px}
+.hd,.ft{position:absolute;left:90px;right:90px;display:flex;justify-content:space-between}
+.hd{top:36px;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--blue);font-weight:600}
+.ft{bottom:30px;font-size:13px;color:var(--mut)}
+h1{font-size:96px;line-height:1;margin:16px 0 28px;color:var(--ink);font-weight:300;letter-spacing:-.03em}h1 b{font-weight:700}
+h2{font-size:42px;line-height:1.1;margin:0 0 22px;color:var(--ink);font-weight:600;letter-spacing:-.02em}
+.eb{font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);font-weight:600;margin:20px 0 10px}
+.eb:first-child{margin-top:0}
+.lead{font-size:20px;line-height:1.5;color:var(--tx);margin:0 0 18px}.lead b{color:var(--ink)}
+ul,ol{margin:0;padding-left:20px;font-size:16.5px;line-height:1.55}li{margin:4px 0}li b,p b,td b{color:var(--ink)}
+em{font-style:normal;color:var(--co);font-weight:600}
+.g2{display:grid;gap:48px;align-items:start}.g2>div,.g3>*{min-width:0}.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:22px}
+figure{margin:0 0 14px}figure img{width:100%;display:block;border:1px solid var(--line);border-radius:10px;background:#fff;cursor:zoom-in}
+.shot.tall img{max-height:620px;width:auto;max-width:100%;margin:0 auto}
+.cap{font-size:13.5px;color:var(--mut);margin-top:7px;line-height:1.4}.cap b{color:var(--ink)}
+table{width:100%;border-collapse:collapse;font-size:14.5px;line-height:1.45;margin:6px 0 14px;background:#ffffffcc;border:1px solid var(--line)}
+th{text-align:left;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);padding:10px 12px;border-bottom:2px solid var(--line);font-weight:600}
+td{padding:8px 12px;border-top:1px solid #E7F0F9;vertical-align:top}table.mini{font-size:13.5px}table.mini td{padding:6px 10px}
+.quote{background:#fff;border:1px solid var(--line);border-left:4px solid var(--co);padding:16px 20px;border-radius:8px;font-size:18px;line-height:1.45;color:var(--ink);margin-bottom:6px}
+.quote small{font-size:11.5px;letter-spacing:.16em;color:var(--blue);font-weight:600}.quote span{font-size:15px;color:var(--tx)}
+.formula{background:var(--ink);color:#E8F2FF;padding:14px 18px;border-radius:8px;font-size:15.5px;line-height:1.55;margin:8px 0}.formula b{color:#FFD9C7}
+.note{font-size:14px;color:var(--mut);line-height:1.5;margin:10px 0}
+.cards{display:grid;gap:16px;margin:4px 0 18px}.cards.c3{grid-template-columns:repeat(3,1fr)}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px 20px}.card .n{font-size:30px;font-weight:700;color:var(--co);line-height:1}
+.card .t{font-size:17px;font-weight:700;color:var(--ink);margin:8px 0 4px}.card p{margin:0;font-size:14.5px;line-height:1.45}
+.steps{display:flex;flex-wrap:wrap;gap:8px;align-items:center;color:var(--mut);font-size:18px;margin-bottom:6px}.steps span{background:#fff;border:1px solid var(--line);border-radius:99px;padding:7px 14px;font-size:14.5px;color:var(--ink);font-weight:600}
+.strip{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px}.strip img{height:330px;border:1px solid var(--line);border-radius:6px;cursor:zoom-in}
+.sw{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;margin-bottom:8px}.sw div{display:grid;grid-template-columns:34px 1fr;column-gap:10px;align-items:center;font-size:13.5px}
+.sw i{grid-row:span 2;width:34px;height:34px;border-radius:8px;border:1px solid var(--line)}.sw b{color:var(--ink)}.sw span{color:var(--mut);font-size:12.5px}
+.ficha{display:grid;grid-template-columns:1fr 1fr;gap:8px 30px}.ficha div{background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 14px;font-size:15px;display:flex;gap:12px}
+.ficha b{color:var(--co);min-width:22px}.check div{font-size:15.5px;padding:7px 0;border-bottom:1px solid #E7F0F9}
+.ol li{margin:6px 0}
+.pw{position:relative}.cp{position:absolute;top:8px;right:8px;font:600 12px 'DM Sans',sans-serif;background:var(--co);color:#fff;border:0;border-radius:99px;padding:6px 12px;cursor:pointer}
+pre.prompt{white-space:pre-wrap;background:var(--ink);color:#DDEBFF;border-radius:8px;padding:16px 18px;font:12.5px/1.55 ui-monospace,Menlo,monospace;margin:0;max-height:560px;overflow:auto}
+.capa-in{margin-top:70px}.partes{display:flex;gap:14px;margin:30px 0 26px;flex-wrap:wrap}
+.partes a{background:var(--ink);color:#fff;text-decoration:none;padding:16px 22px;border-radius:10px;display:flex;flex-direction:column}.partes a span{font-size:13px;color:#9FC3EA}
+.partes a b{font-size:19px}.indice{columns:3;font-size:14px;line-height:1.9}.indice a{color:var(--tx);text-decoration:none;display:block}.indice a:hover{color:var(--co)}
+.z{position:fixed;inset:0;z-index:99;background:#000d;display:flex;align-items:center;justify-content:center;cursor:zoom-out}.z img{max-width:94vw;max-height:94vh;border-radius:8px}
+
+.shot.half img{max-height:520px;width:auto;max-width:100%;margin:0 auto}
+.demo{font-family:Poppins,sans-serif}.demo b{color:inherit}
+.dh{background:var(--sky);border-radius:10px;padding:0 18px 22px;text-align:center;color:#fff;overflow:hidden}
+.dfx{display:inline-block;background:color-mix(in srgb,var(--lm) 55%,#fff);color:#2C3E5C;font-size:10px;font-weight:600;letter-spacing:.14em;padding:9px 16px;border-radius:0 0 14px 14px;margin-bottom:16px}
+.dh1{font-size:24px;font-weight:600;line-height:1.18;letter-spacing:-.03em;text-shadow:0 2px 10px #0003}.dh1 b{color:var(--lm);font-weight:800}
+.dsub{font-size:13.5px;font-weight:500;margin:10px 0 16px}.dsub b{color:var(--lm);font-weight:500}
+.dbtn{display:inline-block;background:linear-gradient(180deg,color-mix(in srgb,var(--q) 75%,#fff),var(--q),var(--qd));padding:12px 22px;border-radius:99px;font-weight:700;font-size:13px;box-shadow:inset 0 2px #fff7,0 10px 20px -8px var(--qd)}
+.dlight,.dlight2{background:linear-gradient(#fff,#EAF6FD);border:1px solid var(--line);border-radius:10px;padding:18px;margin-top:12px;text-align:center;color:#2D609F}
+.deb{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.18em;background:#DCF1FB;border:1px solid #A8E6FF;border-radius:99px;padding:5px 12px;color:#2D609F}
+.dh2{font-size:22px;font-weight:700;line-height:1.2;margin:10px 0}.dh2 b{color:#FF7043;font-weight:800}.dh2.fino{font-weight:400}.dh2.up i{font-style:normal;color:#2C5F9E;font-weight:400}
+.dp{font-size:13.5px;color:#4D6B8F;text-align:left;margin:8px 0 0}.dp b{color:#12294F}
+.doffer{background:linear-gradient(180deg,#2F7FD0,#7CC8F2);padding:18px;border-radius:10px;text-align:center}
+.dpill{display:inline-block;background:linear-gradient(90deg,#10B981,#34D399);color:#fff;font-size:13px;font-weight:600;padding:7px 16px;border-radius:99px;margin-bottom:12px}
+.dcard{background:#fff;border-radius:22px;overflow:hidden;max-width:380px;margin:0 auto;box-shadow:0 20px 40px -20px #0006}
+.dred{background:#DC2626;color:#fff;padding:12px;display:flex;flex-direction:column;gap:2px}.dred small{font-size:9px;letter-spacing:.22em;font-weight:600}.dred b{font-size:24px;font-weight:600;font-variant-numeric:tabular-nums}.dred span{font-size:10px;opacity:.85}
+.dbody{padding:16px 18px 18px;color:#1a1a1a}.drow{display:flex;gap:12px;align-items:center;text-align:left;margin-bottom:8px}.drow img{width:46%;border-radius:12px}
+.dlogo{font-size:22px;font-weight:700;color:#1E63D6}.dg{color:#059669;font-weight:600;font-size:13px}.drow s{color:#EF4444;font-size:12.5px}
+.dsm{font-size:11.5px;color:#737373}.dprice{font-size:46px;font-weight:700;color:#10B981;line-height:1.1;animation:dz 1.6s ease-in-out infinite}
+@keyframes dz{0%,to{transform:scale(1)}20%{transform:scale(1.1) rotate(-2deg)}40%{transform:scale(.97) rotate(2deg)}60%{transform:scale(1.08)}}
+.deco{display:inline-block;border:2px dashed #10B981;color:#059669;font-size:11px;font-weight:600;border-radius:99px;padding:6px 12px;margin:10px 0}
+.dbuy{background:linear-gradient(90deg,#66BB6A,#4CAF50,#43A047);color:#fff;font-weight:700;border-radius:99px;padding:13px;font-size:14.5px;box-shadow:0 0 24px 2px #1fe08670}
+.dchk{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 12px;font-size:11.5px;color:#404040;margin:10px 0}.dchk span:before{color:#F97316}
+.dalert{background:#FEF2F2;border:1px solid #F87171;color:#DC2626;font-size:11.5px;font-weight:600;border-radius:12px;padding:10px}
+.dbtns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center;margin-bottom:16px}
+.dbtns span{color:#fff;font-weight:700;font-size:13px;padding:13px 20px;border-radius:99px;box-shadow:inset 0 2px #fff8,0 10px 20px -10px #0007;text-shadow:0 1px 2px #0003}
+.b1{background:linear-gradient(180deg,#FF8A65,#FF7043 55%,#F4511E)}.b2{background:#28C9E6}.b3{background:linear-gradient(90deg,#66BB6A,#4CAF50,#43A047);width:100%}.b4{background:linear-gradient(180deg,#FF8A65,#F4511E);width:52px;height:52px;padding:0!important;display:flex;align-items:center;justify-content:center;font-size:22px}
+.dbonus{display:flex;gap:12px;background:#fff;border:1px solid #A8E6FF;border-radius:20px;padding:12px;text-align:left;box-shadow:0 14px 30px -18px #12294f66}.dbonus img{width:110px;border-radius:12px}
+.dbonus b{display:block;font-size:16px;font-weight:800;color:#2D609F;margin-top:6px}.dbonus p{font-size:12px;color:#4D6B8F;margin:4px 0 0}
+.dtag{background:#FF7043;color:#fff;font-size:9.5px;font-weight:600;letter-spacing:.18em;border-radius:99px;padding:4px 11px;box-shadow:0 6px 14px #ff6e4266}
+.dchips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}.dchip{background:#ffffffe6;border:1px solid #A8E6FF;color:#2C5F9E;font-size:11px;font-weight:600;border-radius:99px;padding:4px 10px}
+.ol.big li{font-size:16px;margin:9px 0}
+@media(max-width:900px){.page{padding:70px 18px 60px;min-height:0}.hd,.ft{left:18px;right:18px}.hd{top:24px;font-size:10.5px}.ft{bottom:18px;font-size:11px}
+ .g2,.g3,.cards.c3,.ficha,.sw{grid-template-columns:1fr!important}h1{font-size:56px}h2{font-size:28px}.indice{columns:1}table{display:block;overflow-x:auto}.shot.tall img{max-height:480px}}
+@media print{.top{display:none}body{background:#fff}.page{box-shadow:none;margin:0;page-break-after:always;width:100%}}
+</style></head>
+<body><nav class="top"><span class="t">Playbook Criativos em Vídeo</span><a href="#p1">Início</a><a href="#p2">Criativos em vídeo</a></nav><section class="page capa" id="p1"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Vissia</span></div>
+<div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>1/14</span></div>
+<div class="capa-in"><div class="eb">Os 11 anúncios da Kamila desmontados · complemento da skill lt-criativos-video e do Meu Roteiro que Vende</div><h1>Playbook<br><b>Criativos em Vídeo</b></h1>
+<div class="partes"><a href="#p2"><b>Criativos em vídeo</b><span>a partir da página 2</span></a></div><div class="indice"><a href="#p2">2. O que já existia e o que este playbook acrescenta</a><a href="#p3">3. Os 5 formatos visuais (o que se vê na tela)</a><a href="#p4">4. As aberturas (quebra de padrão): 11 jeitos que ela usa</a><a href="#p5">5. Legendas, textos e edição</a><a href="#p6">6. Prova: o que ela usa e o que podemos usar</a><a href="#p7">7. Vídeos desmontados (1 de 6)</a><a href="#p8">8. Vídeos desmontados (2 de 6)</a><a href="#p9">9. Vídeos desmontados (3 de 6)</a><a href="#p10">10. Vídeos desmontados (4 de 6)</a><a href="#p11">11. Vídeos desmontados (5 de 6)</a><a href="#p12">12. Vídeos desmontados (6 de 6)</a><a href="#p13">13. Como usar ao escrever os takes</a><a href="#p14">14. Decisões do Paulo sobre o que ela usa (04/11/2026)</a></div></div></section><section class="page" id="p2"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>O que já existia e o que este playbook acrescenta</h2><p><strong>Versão 1 · 04/11/2026.</strong> Complemento do que <strong>já existe</strong>, sem repetir:
+- <strong>Método e roteiro</strong> (6 etapas, ganchos, CTA, takes, PDF de gravação): skill <code>lt-criativos-video</code> e <code>padroes-kamilla.md</code> · processo <code>0-vissia/operacao/processos/criativos-video-low-ticket.md</code>.
+- <strong>Produto:</strong> Meu Roteiro que Vende (<code>3-produtos/meu-roteiro-que-vende/</code>): Engenharia do Minuto e as 6 Decisões do Desconhecido.
+- <strong>Padrão ouro nosso:</strong> Anúncio Pronto (<code>1-clientes/primeiro-cnpj/5-produtos/anuncio-pronto/criativo/</code>), formato por takes aprovado em 01/11/2026.</p>
+<p><strong>O que este playbook acrescenta:</strong> o lado <strong>visual</strong> dos 11 anúncios reais da Kamila, que ainda não estava registrado: os formatos de tela, as aberturas, as legendas e o cartão final, as provas que aparecem na tela e o desmonte de cada vídeo com os quadros. Serve para escrever a coluna <strong>"Na edição"</strong> e o campo <strong>"quebra"</strong> dos takes, e para a <code>/editar-criativo</code>.</p>
+<p>Vídeos: <code>4-conhecimento/cursos-e-sistemas/Low Ticket Kamilla/Criativos/</code> · Quadros: <code>playbook/img/cv-*.jpg</code>. Nota de ritmo: ela fala cerca de 3 palavras por segundo; no nosso formato o alvo aprovado segue 120 a 150 palavras para 50 a 60 s.</p><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>2/14</span></div></section><section class="page" id="p3"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Os 5 formatos visuais (o que se vê na tela)</h2><table>
+<thead>
+<tr>
+<th>Formato</th>
+<th>Como é</th>
+<th>Vídeos</th>
+<th>Quando usar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A. Pessoa recortada no canto</strong></td>
+<td>A pessoa, recortada com contorno colorido ou tracejado, ocupa o canto de baixo (cerca de 45% da tela), na frente de um fundo que troca a cada 3 s: exemplos do produto, telas do app, posts com curtidas</td>
+<td>50VF 271, criativos 3, 4, 5, 6, 8, 10</td>
+<td><strong>O padrão.</strong> Produto que dá para mostrar (modelos, app, IA)</td>
+</tr>
+<tr>
+<td><strong>B. Tela dividida</strong></td>
+<td>Em cima, um exemplo do que o produto faz (um Reels viral) com faixa vermelha de texto; embaixo, a pessoa falando</td>
+<td>50VF 272</td>
+<td>Quando o exemplo é o argumento ("é esse formato que viraliza")</td>
+</tr>
+<tr>
+<td><strong>C. Personagem em 3ª pessoa</strong></td>
+<td>Várias cenas de vida (almoço, sofá, rede, notebook), roupas trocadas, recorte com nome ("Esta é Kamila"), notificação de venda, legenda de 2 linhas</td>
+<td>Criativo 7</td>
+<td>História de transformação de alguém real</td>
+</tr>
+<tr>
+<td><strong>D. Cabeça falante com texto 3D</strong></td>
+<td>A pessoa sentada falando direto; no começo um texto grande 3D ("Low Ticket") e uma notificação; depois tela em cima e pessoa embaixo</td>
+<td>Criativo 9</td>
+<td>Explicação, tutorial, autoridade</td>
+</tr>
+<tr>
+<td><strong>E. Tela pura</strong></td>
+<td>Filmagem da tela do computador ou do celular mostrando o produto funcionando; termina com o resultado</td>
+<td>Criativo 11</td>
+<td>Produto que se prova sozinho na tela (IA, gerador)</td>
+</tr>
+</tbody>
+</table>
+<p>Em todos: <strong>corte ou troca de fundo a cada 3 a 4 segundos</strong>. Nada fica parado.</p>
+<hr /><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>3/14</span></div></section><section class="page" id="p4"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>As aberturas (quebra de padrão): 11 jeitos que ela usa</h2><table>
+<thead>
+<tr>
+<th>Abertura</th>
+<th>O que acontece nos 2 primeiros segundos</th>
+<th>Vídeo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transição com desfoque</td>
+<td>Um "whoosh" borrado vira a cena; a pessoa recortada já falando</td>
+<td>50VF 271, criativos 4, 5, 6</td>
+</tr>
+<tr>
+<td>Comendo algo</td>
+<td>Maçã, banana, pão na mão enquanto fala (casual, gente de verdade)</td>
+<td>50VF 271, 272</td>
+</tr>
+<tr>
+<td>Faixa de público no topo</td>
+<td>Cartão tipo notificação: "Exclusivo para mulheres cristãs · Assista este vídeo até o final"</td>
+<td>Criativo 3</td>
+</tr>
+<tr>
+<td>Objeto na mão</td>
+<td>Copo térmico, notebook, celular colado na câmera</td>
+<td>Criativos 3, 6, 11</td>
+</tr>
+<tr>
+<td>Gesto no rosto</td>
+<td>Dedo na têmpora ou na bochecha, pose de "pensa comigo"</td>
+<td>Criativos 4, 5, 10</td>
+</tr>
+<tr>
+<td>Entrar andando</td>
+<td>Entra no quadro carregando o notebook</td>
+<td>Criativo 6</td>
+</tr>
+<tr>
+<td>Texto que se monta</td>
+<td>Letras recortadas montando a pergunta ("Contenido listo para Instagram?")</td>
+<td>Criativo 6</td>
+</tr>
+<tr>
+<td>Recorte com nome</td>
+<td>Contorno laranja grosso, estrelas e "Esta es Kamila"</td>
+<td>Criativo 7</td>
+</tr>
+<tr>
+<td>Recorte sobre estética do nicho</td>
+<td>Contorno branco, bilhete de papel com a frase, adesivos de flor</td>
+<td>Criativo 8</td>
+</tr>
+<tr>
+<td>Texto 3D + notificação</td>
+<td>"Low Ticket" verde neon gigante e uma notificação aparecendo</td>
+<td>Criativo 9</td>
+</tr>
+<tr>
+<td>Bastidor</td>
+<td>O celular no tripé gravando, a pessoa no fundo</td>
+<td>Criativo 10</td>
+</tr>
+</tbody>
+</table>
+<p>Regra: <strong>a quebra é o que se vê; o gancho é o que se ouve; os dois juntos no segundo 0.</strong></p>
+<hr /><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>4/14</span></div></section><section class="page" id="p5"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Legendas, textos e edição</h2><p><strong>Legenda (sempre, palavra por palavra):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Estilo</th>
+<th>Como é</th>
+<th>Vídeos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Palavra única no centro</td>
+<td>Uma palavra por vez, branca, grossa, com contorno escuro, no meio da tela</td>
+<td>Criativos 4, 5, 10</td>
+</tr>
+<tr>
+<td>Palavra em caixa colorida</td>
+<td>Uma palavra em caixa amarela ou laranja, levemente girada</td>
+<td>Criativos 8, 9</td>
+</tr>
+<tr>
+<td>Duas linhas com destaque</td>
+<td>Frase curta em 2 linhas brancas, a palavra-chave colorida (rosa, amarelo, azul)</td>
+<td>Criativo 7</td>
+</tr>
+<tr>
+<td>Brilho</td>
+<td>Palavra amarela com brilho</td>
+<td>Criativo 11</td>
+</tr>
+</tbody>
+</table>
+<p><strong>O que se sobrepõe:</strong> faixa de texto do público no topo; notificação (venda, Pix, mensagem); posts com curtidas e comentários; telas de "insights"; recorte da pessoa com contorno; adesivos do nicho; seta apontando para baixo no CTA.</p>
+<p><strong>Cartão final:</strong> tela preta com "CLIQUE EM SAIBA MAIS" em caixa branca e setas para baixo (criativos 5, 10, 11), ou a frase com seta desenhada (criativo 6), ou a cena com moldura de câmera "REC" (criativo 7). Fica 2 a 3 s.</p>
+<p><strong>Ritmo de edição:</strong> troca de fundo a cada 3 a 4 s, transições com desfoque, a pessoa recortada fica fixa no canto enquanto o fundo muda. Tudo isso é o estilo da <code>/editar-criativo</code>.</p>
+<hr /><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>5/14</span></div></section><section class="page" id="p6"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Prova: o que ela usa e o que podemos usar</h2><table>
+<thead>
+<tr>
+<th>Prova</th>
+<th>Exemplo</th>
+<th>Na Vissia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Demonstração na tela</td>
+<td>O app gerando, o clone falando, o carrossel sendo baixado</td>
+<td><strong>Sempre.</strong> É a prova principal</td>
+</tr>
+<tr>
+<td>Quantidade</td>
+<td>"Olha a quantidade de modelos", galeria passando</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>Metaprova</td>
+<td>"Esse vídeo que você está vendo foi 100% feito com essa IA"</td>
+<td>Só se for verdade <strong>e</strong> não confundir (erro já cometido: parecer que o anúncio inteiro é IA)</td>
+</tr>
+<tr>
+<td>Prints de redes</td>
+<td>Posts com curtidas, comentários, insights</td>
+<td>Sim, se forem reais</td>
+</tr>
+<tr>
+<td>Notificações de venda ou Pix</td>
+<td>"Venta realizada", "Pix Pago Você recebeu R$ 17,90"</td>
+<td>Sim, as nossas reais</td>
+</tr>
+<tr>
+<td>Relato em 1ª pessoa</td>
+<td>"As pessoas compartilham, mulheres escrevem para mim"</td>
+<td>Sim, o que a especialista viveu</td>
+</tr>
+</tbody>
+</table>
+<hr /><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>6/14</span></div></section><section class="page" id="p7"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Vídeos desmontados (1 de 6)</h2><div class="g2" style="grid-template-columns:1fr 1fr"><div><div class="eb">50 Viral Fit 271 · Contraintuitivo · formato A · 49 s · 160 palavras</div><figure class="shot"><img src="img/cv-vf271.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> desfoque vira a cena; recortada comendo pão no mercado, por cima de um carrossel "CUIDADO" de comparação de produtos.</li>
+<li><strong>Gancho:</strong> "Não faz sentido, mas é esse formato aqui de carrossel orgânico que tá fazendo os nutricionistas viralizar."</li>
+<li><strong>Dor/explicação:</strong> por que o formato viraliza (identificação com marcas do mercado, nativo do Instagram).</li>
+<li><strong>Solução + prova:</strong> "Aqui ó, nessa biblioteca você tem 50 modelos prontos" com a biblioteca na tela; "E o melhor: cada modelo já vem com a legenda".</li>
+<li><strong>CTA:</strong> duplo, "libera o seu acesso".</li>
+<li><strong>Por que funciona:</strong> o próprio produto é o gancho (o carrossel que aparece é um dos modelos). O fundo troca a cada 3 s mostrando 10 carrosséis diferentes: prova de quantidade sem dizer nada.</li>
+</ul></div><div><div class="eb">50 Viral Fit 272 · Diagnóstico · formato B · 34 s · 107 palavras</div><figure class="shot"><img src="img/cv-vf272.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> tela dividida: em cima, um Reels viral de outro nutricionista com a faixa vermelha "NUTRICIONISTAS NÃO SABEM FAZER EDIÇÃO DE REELS VIRAL"; embaixo, ela comendo banana.</li>
+<li><strong>Gancho:</strong> "A maioria dos nutricionistas que não viralizam é porque não sabem fazer essas edições aqui."</li>
+<li><strong>Solução:</strong> "Aqui, nessa biblioteca, estão os 50 Reels mais viralizados do seu nicho"; "com apenas um clique você gera o roteiro"; "É só trocar o fundo, baixar e postar."</li>
+<li><strong>Por que funciona:</strong> mostra o resultado (o Reels viral) antes de falar do produto. Curto e direto. (34 s: no limite; para nós, mínimo 35 s.)</li>
+</ul></div></div><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>7/14</span></div></section><section class="page" id="p8"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Vídeos desmontados (2 de 6)</h2><div class="g2" style="grid-template-columns:1fr 1fr"><div><div class="eb">Criativo 3 · Propósito · formato A · 53 s · 146 palavras</div><figure class="shot"><img src="img/cv-c3.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> cartão de notificação no topo "Exclusivo para mulheres cristãs · Assista este vídeo até o final", copo térmico na mão, corações desenhados.</li>
+<li><strong>Gancho:</strong> "A palavra de Deus tem poder e pode chegar a muito mais pessoas através das suas histórias."</li>
+<li><strong>Dor:</strong> "Durante muito tempo eu quis começar a publicar, mas não sabia fazer stories bonitos."</li>
+<li><strong>Solução:</strong> passo a passo na tela do app (escolhe o estilo, a foto, o versículo, a mensagem).</li>
+<li><strong>Prova:</strong> relato (as pessoas reagem, compartilham, escrevem) + "Olha esses modelos, um mais lindo que o outro".</li>
+<li><strong>CTA:</strong> "Se você sente que suas redes podem ser usadas para um propósito maior..." + ativar o acesso.</li>
+<li><strong>Por que funciona:</strong> vende identidade e propósito, não ferramenta. Legenda palavra por palavra e fundos estéticos do nicho.</li>
+</ul></div><div><div class="eb">Criativo 4 · Antes e depois · formato A · 50 s · 168 palavras</div><figure class="shot"><img src="img/cv-c4.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> dedo na têmpora, close; desfoque; recortada na frente da tela do app.</li>
+<li><strong>Gancho:</strong> "Depois que eu comecei a usar essa IA para gerar os meus anúncios, nunca mais perdi tempo e dinheiro com cenário, roteiro, gravação ou edição."</li>
+<li><strong>Prova:</strong> metaprova ("esse vídeo foi 100% feito com essa IA"), a lista de clones que ela usa, o app gerando.</li>
+<li><strong>Por que funciona:</strong> a dor está dentro do gancho (lista de 4 coisas chatas). A prova é o próprio vídeo.</li>
+</ul></div></div><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>8/14</span></div></section><section class="page" id="p9"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Vídeos desmontados (3 de 6)</h2><div class="g2" style="grid-template-columns:1fr 1fr"><div><div class="eb">Criativo 5 · Pergunta com dor · formato A · 38 s · 113 palavras</div><figure class="shot"><img src="img/cv-c5.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> desfoque, gesto apontando para a têmpora, palavras únicas no centro.</li>
+<li><strong>Gancho:</strong> "Quer publicar conteúdo no Instagram, mas tem pavor de gravar?"</li>
+<li><strong>Dor:</strong> "Eu queria aparecer, mas a câmera me paralisava." <strong>Virada:</strong> "Até que eu descobri esta IA."</li>
+<li><strong>Fecho:</strong> cartão preto "CLIQUE EM SAIBA MAIS".</li>
+<li><strong>Por que funciona:</strong> dor emocional (medo da câmera) nomeada em 1 frase; solução que tira o esforço todo.</li>
+</ul></div><div><div class="eb">Criativo 6 · Hipótese · formato A · 55 s · 146 palavras</div><figure class="shot"><img src="img/cv-c6.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> entra andando com o notebook; letras recortadas montam "Conteúdo pronto para Instagram?".</li>
+<li><strong>Solução:</strong> "É muito simples: abre o app, clica em Ver Conteúdo e depois em Gerar"; lista do que entrega (Stories, Reels, Carrosséis, Posts); cronograma diário.</li>
+<li><strong>"E o melhor":</strong> funciona para qualquer nicho.</li>
+<li><strong>Por que funciona:</strong> demonstração longa e organizada, telas escuras do app com destaque rosa; microfone de lapela na mão (bastidor real).</li>
+</ul></div></div><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>9/14</span></div></section><section class="page" id="p10"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Vídeos desmontados (4 de 6)</h2><div class="g2" style="grid-template-columns:1fr 1fr"><div><div class="eb">Criativo 7 · Terceira pessoa · formato C · 40 s · 148 palavras</div><figure class="shot"><img src="img/cv-c7.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> cena no balcão com o celular ("quando almoça"), depois o recorte laranja com "Esta es Kamila" e estrelas.</li>
+<li><strong>Gancho:</strong> "Esta é a Kamila. Ela vende todos os dias no automático."</li>
+<li><strong>Desenvolvimento:</strong> humor ("Irritante? Sim, mas funciona"), o "segredo" (estrutura de oferta validada), o que entrega, preço comparado a uma pizza.</li>
+<li><strong>CTA:</strong> "antes que a Kamila tire este vídeo do ar". Pode usar (seção 7): o anúncio pode mesmo sair do ar.</li>
+<li><strong>Por que funciona:</strong> narrador fala dela como personagem, várias cenas de vida, legenda em 2 linhas com palavra colorida: parece conteúdo, não anúncio.</li>
+</ul></div><div><div class="eb">Criativo 8 · Pergunta com dor · formato A (estética do nicho) · 41 s · 132 palavras</div><figure class="shot"><img src="img/cv-c8.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> recorte com contorno branco sobre um story estético, bilhete de papel "Deus pode usar seus Stories mais do que você imagina", adesivos de flor; teclado digitando.</li>
+<li><strong>Gancho:</strong> "Você deseja compartilhar a palavra de Deus, mas nunca tem tempo para preparar algo bonito?"</li>
+<li><strong>Solução e prova:</strong> passo a passo no app, gerando "automaticamente"; reações de Stories; "Olha esses modelos, um mais lindo que o outro".</li>
+<li><strong>Por que funciona:</strong> o visual inteiro está no mundo do nicho (cores, adesivos, fundos dos próprios modelos). Legenda em pílula laranja.</li>
+</ul></div></div><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>10/14</span></div></section><section class="page" id="p11"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Vídeos desmontados (5 de 6)</h2><div class="g2" style="grid-template-columns:1fr 1fr"><div><div class="eb">Criativo 9 · Curiosidade · formato D · 61 s · 230 palavras</div><figure class="shot"><img src="img/cv-c9.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> "Low Ticket" 3D verde neon gigante e notificação de venda aparecendo.</li>
+<li><strong>Desenvolvimento:</strong> contra-crença ("o que vende não é o produto, é a oferta"), tutorial no ChatGPT na metade de cima, prova pelo perfil dela.</li>
+<li><strong>Renda:</strong> fala de valor por mês e "dinheiro no bolso". Pode usar com número real (seção 7), com uma versão sem renda de reserva.</li>
+</ul></div><div><div class="eb">Criativo 10 · Dor + virada · formato A · 67 s · 168 palavras</div><figure class="shot"><img src="img/cv-c10.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> dedo na bochecha, close; depois o bastidor (celular no tripé gravando).</li>
+<li><strong>Gancho/dor:</strong> "Para criar anúncios, roteiros, gravações, edições, cenários... era uma dor de cabeça total." <strong>Virada:</strong> "Até que comecei a usar esta IA."</li>
+<li><strong>Prova:</strong> o app clonando, a lista de vídeos criados, notificações de Pix (só reais), metaprova.</li>
+<li><strong>Fecho:</strong> cartão preto "CLIQUE EM SAIBA MAIS".</li>
+<li><strong>Por que funciona:</strong> mostra o "antes" (o trabalho de gravar) em vez de só falar dele. 67 s: acima do máximo de 1 minuto.</li>
+</ul></div></div><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>11/14</span></div></section><section class="page" id="p12"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Vídeos desmontados (6 de 6)</h2><div class="g2" style="grid-template-columns:1fr 1fr"><div><div class="eb">Criativo 11 · Demonstração com número · formato E · 53 s · 144 palavras</div><figure class="shot"><img src="img/cv-c11.jpg" loading="lazy"></figure><ul>
+<li><strong>Abertura:</strong> a tela do notebook filmada com o celular, com a avatar já aparecendo.</li>
+<li><strong>Gancho:</strong> "Com só uma foto, essa IA gera vídeos em menos de cinco minutos."</li>
+<li><strong>Solução:</strong> "É muito simples: adiciona um visual, escolhe a foto, clica em enviar... Em menos de 2 minutos o vídeo está pronto."</li>
+<li><strong>Prova:</strong> o resultado tocando na tela, depois a avatar falando em tela cheia.</li>
+<li><strong>Por que funciona:</strong> o gancho é a promessa com número e a prova chega em 15 s. Nenhuma cena com a pessoa real até o fim.</li>
+</ul>
+<hr /></div><div></div></div><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>12/14</span></div></section><section class="page" id="p13"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Como usar ao escrever os takes</h2><ul>
+<li><strong>Campo "quebra" do take 1:</strong> escolha uma abertura da seção 2 que dê para gravar com o que vocês têm (objeto do nicho, gesto, entrar andando, faixa de público no topo).</li>
+<li><strong>Coluna "Na edição":</strong> diga o formato da seção 1 (padrão: A, pessoa recortada no canto sobre as telas do produto), o estilo de legenda da seção 3 e o cartão final.</li>
+<li><strong>Antes de gravar:</strong> liste as telas e exemplos do produto que vão de fundo (seção 4: a prova é a demonstração).</li>
+<li><strong>Edição:</strong> passe para a <code>/editar-criativo</code> o formato, o estilo de legenda e as telas.</li>
+</ul><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>13/14</span></div></section><section class="page" id="p14"><div class="hd"><span>Playbook Criativos em Vídeo</span><span>Criativos em vídeo</span></div><h2>Decisões do Paulo sobre o que ela usa (04/11/2026)</h2><ul>
+<li><strong>Promessa de renda: pode usar</strong>, como ela usa ("vende todos os dias", "vender muito mais", valor por mês), quando o número for real (resultado da especialista ou do cliente). Cuidado prático: o Meta costuma reprovar anúncio com promessa de ganho; ter sempre uma versão do mesmo vídeo sem a frase de renda para trocar se for reprovado.</li>
+<li><strong>"Antes que este vídeo saia do ar": pode usar.</strong> É verdade: o anúncio pode ser pausado a qualquer momento. Escassez de oferta ("só por um momento") também, quando for o caso.</li>
+<li><strong>Resultados, relatos e notificações: usar os nossos, reais</strong>, do mesmo jeito que ela usa (notificação de venda, Pix, prints de mensagens, insights, relato da especialista). Pedir esse material antes de escrever o roteiro.</li>
+<li><strong>Metaprova</strong> ("este vídeo foi feito com IA"): só quando o produto é exatamente isso, para não confundir (erro já cometido no Anúncio Pronto).</li>
+<li><strong>Tempo:</strong> 35 s a 1 minuto.</li>
+<li><strong>Gancho:</strong> sem "curso", "aprenda", "método".</li>
+</ul><div class="ft"><span>Playbook Criativos em Vídeo · versão 1 · 04/11/2026</span><span>14/14</span></div></section><script>document.querySelectorAll('figure img,.strip img').forEach(i=>i.onclick=()=>{const d=document.createElement('div');d.className='z';d.innerHTML='<img src="'+i.src+'">';d.onclick=()=>d.remove();document.body.appendChild(d)});
+document.querySelectorAll('.cp').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(b.nextElementSibling.textContent).then(()=>{b.textContent='Copiado';setTimeout(()=>b.textContent='Copiar',1500)})});</script></body></html>

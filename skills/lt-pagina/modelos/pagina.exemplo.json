@@ -1,0 +1,284 @@
+{
+  "produto": "Anúncio Pronto",
+  "titulo_aba": "Anúncio Pronto: clientes do bairro no WhatsApp",
+  "descricao": "Copie o anúncio pronto do seu negócio e receba clientes do seu bairro direto no seu WhatsApp.",
+  "noindex": true,
+  "fonte": "Inter",
+  "cores": {
+    "primaria": "#0042FF",
+    "escura": "#03163F",
+    "fundo": "#F7F3EF",
+    "sucesso": "#16A34A",
+    "destaque": "#16A34A",
+    "acento": "#7C3AED",
+    "alerta": "#EF2B2D",
+    "laranja": "#F97316"
+  },
+  "checkout": "https://pay.kiwify.com.br/B9MCZ6b",
+  "whatsapp": {
+    "numero": "5511925592375",
+    "mensagem": "Olá! Vim pela página do Anúncio Pronto e tenho uma dúvida."
+  },
+  "rastreio": {
+    "meta_pixel_id": "",
+    "clarity_id": ""
+  },
+  "faixa": "🔥 EXCLUSIVO PARA MEI E QUEM TRABALHA POR CONTA PRÓPRIA",
+  "hero": {
+    "logo": "assets/logo.webp",
+    "titulo": "Copie o [[anúncio pronto]] do seu negócio e receba {{clientes do seu bairro}} [[direto no seu WhatsApp]]",
+    "sub": "__Coloque no ar em 1 hora__, direto no celular",
+    "sub_destaque": "Validado em diversos negócios, só copiar e colar",
+    "visual": {
+      "tipo": "pessoa_telas",
+      "pessoa": "assets/pessoa-recorte.webp",
+      "telas": [
+        "assets/tela-1.webp",
+        "assets/tela-2.webp"
+      ],
+      "notificacoes": [
+        3,
+        12,
+        5
+      ],
+      "icone_notif": "whatsapp",
+      "selos": [
+        "💬 +mensagens",
+        "🙋 +clientes",
+        "💰 +vendas"
+      ]
+    },
+    "botao": "Quero o meu Anúncio Pronto",
+    "link_abaixo": ""
+  },
+  "depoimentos": {
+    "titulo": "Veja as mensagens que recebemos de [[quem já usa]]",
+    "prints": [],
+    "cartoes": []
+  },
+  "passos": {
+    "titulo": "A forma mais fácil de receber clientes no WhatsApp em [[__3 passos simples__]]",
+    "video": {
+      "mp4": "assets/passos.mp4",
+      "poster": "assets/passos-poster.webp"
+    },
+    "icones": true,
+    "itens": [
+      {
+        "icone": "📂",
+        "titulo": "Escolha o anúncio do seu negócio",
+        "texto": "São 30 anúncios prontos. Você troca a foto, o nome e o bairro."
+      },
+      {
+        "icone": "📍",
+        "titulo": "Marque o raio no mapa",
+        "texto": "O anúncio aparece só para quem mora perto."
+      },
+      {
+        "icone": "💬",
+        "titulo": "Ligue com R$ 10 por dia",
+        "texto": "As pessoas tocam no anúncio e caem direto no seu WhatsApp."
+      }
+    ],
+    "frase": "É só escolher, marcar o raio e ligar!"
+  },
+  "recebe": {
+    "titulo": "Veja tudo o que você recebe dentro do [[Anúncio Pronto]] ✨",
+    "linha": "Veja alguns modelos, todos validados e aprovados 👇",
+    "numero": "+30",
+    "numero_linha1": "ANÚNCIOS PRONTOS PARA",
+    "numero_linha2": "Negócios do bairro 📍",
+    "chips": [
+      "Comida e doces",
+      "Beleza",
+      "Conserto e manutenção",
+      "Serviços em casa",
+      "Pet",
+      "Saúde e bem-estar",
+      "Aulas",
+      "Automotivo"
+    ],
+    "proporcao": "4/5",
+    "bloquear": [
+      2,
+      4,
+      5,
+      7
+    ],
+    "galeria": [
+      {
+        "imagem": "assets/modelo-1.webp",
+        "faixa": "Manicure no [Seu Bairro]",
+        "titulo": "Unhas feitas perto de casa"
+      },
+      {
+        "imagem": "assets/modelo-2.webp",
+        "faixa": "Barbearia no [Seu Bairro]",
+        "titulo": "Corte e barba sem fila"
+      },
+      {
+        "imagem": "assets/modelo-3.webp",
+        "faixa": "Atendo no [Seu Bairro]",
+        "titulo": "Eletricista hoje no seu bairro"
+      },
+      {
+        "imagem": "assets/modelo-4.webp",
+        "faixa": "Diarista no [Seu Bairro]",
+        "titulo": "Sua casa limpa nesta semana"
+      },
+      {
+        "imagem": "assets/modelo-5.webp",
+        "faixa": "Pet no [Seu Bairro]",
+        "titulo": "Banho e tosa perto de você"
+      },
+      {
+        "imagem": "assets/modelo-6.webp",
+        "faixa": "Reforço no [Seu Bairro]",
+        "titulo": "Aula particular sem sair do bairro"
+      },
+      {
+        "imagem": "assets/modelo-7.webp",
+        "faixa": "Oficina no [Seu Bairro]",
+        "titulo": "Revisão sem enrolação"
+      },
+      {
+        "imagem": "assets/modelo-8.webp",
+        "faixa": "Estética no [Seu Bairro]",
+        "titulo": "Limpeza de pele perto de casa"
+      }
+    ],
+    "faixa_rolante": [],
+    "nota": "Modelos ilustrativos. Você troca a foto pela sua, o nome e o bairro.",
+    "frase": "",
+    "titulo2": "Tudo validado e aprovado para você usar agora e [[já ver resultado]]:",
+    "extras": [
+      {
+        "emoji": "🎥",
+        "imagem": "assets/extra-1.webp",
+        "titulo": "Passo a passo em vídeo pelo celular",
+        "texto": "7 vídeos curtos, de até 5 minutos, para colocar o anúncio no ar em 1 hora. Sem computador."
+      },
+      {
+        "emoji": "📍",
+        "imagem": "assets/extra-2.webp",
+        "titulo": "Mapa do Raio",
+        "texto": "O tamanho certo do raio para quem atende em casa, para quem recebe no ponto e para quem entrega."
+      },
+      {
+        "emoji": "✅",
+        "imagem": "assets/extra-3.webp",
+        "titulo": "Checklist antes de ligar o anúncio",
+        "texto": "WhatsApp Business arrumado para não perder nenhuma conversa que chegar."
+      }
+    ]
+  },
+  "bonus": {
+    "titulo": "Além do Anúncio Pronto, você ainda recebe [[bônus exclusivos]] 🎁",
+    "itens": [
+      {
+        "emoji": "💬",
+        "imagem": "assets/bonus-1.webp",
+        "titulo": "20 respostas prontas de WhatsApp",
+        "texto": "Para transformar \"quanto custa?\" em horário marcado."
+      },
+      {
+        "emoji": "📍",
+        "imagem": "assets/bonus-2.webp",
+        "titulo": "Apareça no Google Maps em 15 minutos",
+        "texto": "O passo a passo para o seu negócio aparecer quando alguém do bairro pesquisa no Google. Grátis."
+      },
+      {
+        "emoji": "🗓️",
+        "imagem": "assets/bonus-3.webp",
+        "titulo": "Calendário de 30 dias de ofertas",
+        "texto": "O que anunciar em cada semana do mês: dia do pagamento, datas comemorativas e a semana fraca."
+      }
+    ]
+  },
+  "oferta": {
+    "imagine": "Imagine abrir o WhatsApp de manhã e ver mensagem de gente do seu bairro que você nunca viu, perguntando horário, preço e se você atende hoje. Sem pedir indicação. Sem ficar oferecendo desconto.",
+    "recap": [
+      [
+        "Anúncio Pronto",
+        "97"
+      ],
+      [
+        "🎁 Bônus 1. 20 respostas prontas de WhatsApp",
+        "47"
+      ],
+      [
+        "🎁 Bônus 2. Apareça no Google Maps em 15 minutos",
+        "47"
+      ],
+      [
+        "🎁 Bônus 3. Calendário de 30 dias de ofertas",
+        "37"
+      ]
+    ],
+    "de": "228",
+    "preco": "37,00",
+    "parcelas": "8x",
+    "parcela": "5,38",
+    "logo": "assets/logo.webp",
+    "imagem": "assets/produto.webp",
+    "botao": "Quero o Anúncio Pronto agora 🔥",
+    "prazo": "",
+    "frase_topo": "🔥 Oferta Especial",
+    "frase_topo2": "Preço exclusivo desta página.",
+    "acesso": "Acesso vitalício imediato",
+    "alerta": "⚠️ FECHAR ESTA PÁGINA PODE FAZER VOCÊ PERDER ESTA OFERTA"
+  },
+  "garantia": {
+    "dias": 7,
+    "texto": [
+      "Você pode testar o Anúncio Pronto por 7 dias completos. Se dentro desse período você achar que o produto não é para você, basta solicitar o reembolso e devolvemos 100% do seu dinheiro.",
+      "O único risco é continuar esperando indicação."
+    ],
+    "forte": "Se apenas [[1 anúncio]] trouxer [[1 cliente novo]], o investimento já se paga. Agora imagine o potencial de [[30]]."
+  },
+  "autor": {
+    "nome": "Marcela Régia",
+    "cargo": "Criadora do Anúncio Pronto 🔥",
+    "foto": "assets/autor.webp",
+    "paragrafos": [
+      "Eu e o meu time atendemos só MEI, todos os dias, pelo WhatsApp.",
+      "E a conversa que mais se repete não é sobre imposto. **É sobre cliente.**",
+      "Gente com serviço bom, que trabalha bem, e que vive com a agenda dependendo de indicação.",
+      "Por isso juntamos o que funciona para negócio de bairro num material simples: **o anúncio pronto, o passo a passo pelo celular e as mensagens para responder quem chamar.**"
+    ],
+    "fecho": "Para você parar de esperar o cliente aparecer."
+  },
+  "faq": [
+    [
+      "Como recebo o acesso?",
+      "Assim que o pagamento é aprovado, o acesso chega no seu e-mail. No Pix, é na hora."
+    ],
+    [
+      "Preciso entender de anúncio ou de tráfego pago?",
+      "Não. O anúncio já vem pronto e o vídeo mostra cada toque na tela do celular."
+    ],
+    [
+      "Quanto vou gastar com o anúncio?",
+      "Você escolhe. O passo a passo mostra como começar com R$ 10 por dia e pausar quando quiser."
+    ],
+    [
+      "Preciso de computador?",
+      "Não. Tudo é feito pelo celular."
+    ],
+    [
+      "Tem mensalidade?",
+      "Não. Você paga uma vez só."
+    ],
+    [
+      "E se eu não gostar?",
+      "Você tem 7 dias de garantia. Pediu, devolvemos 100% do valor."
+    ]
+  ],
+  "rodape": {
+    "ano": "2026",
+    "empresa": "PrimeiroCNPJ",
+    "cnpj": "",
+    "politica": "/politica-de-privacidade/",
+    "termos": "/termos-de-uso/"
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "produto": "Anúncio Pronto",
+  "slug": "anuncio-pronto",
+  "marca": "PrimeiroCNPJ · Anúncio Pronto",
+  "para": "Marcela",
+  "data": "31/10/2026",
+  "congruencia": "página /anuncio-pronto/. O que o produto é (Paulo, 01/11/2026): a pessoa responde 4 perguntas e a IA cria os anúncios prontos a partir de modelos validados, que já venderam muito em vários negócios; depois ativa a ferramenta de anúncios, clica em alguns botões e o anúncio aparece para o bairro, que chama no WhatsApp. Não dizer vídeo ou imagem; não dizer \"esse vídeo/esse anúncio foi feito com IA\" de forma que pareça que o próprio vídeo é de IA; não pular a ativação. Preço não aparece no vídeo.",
+  "videos": [
+    {
+      "cod": "V1",
+      "titulo": "Ele aparece. Você não.",
+      "angulo": "Dor",
+      "dur": "cerca de 60 segundos",
+      "ideia": "Mostrar que o problema não é o serviço, é que o bairro não vê o negócio.",
+      "takes": [
+        {
+          "etapa": "gancho",
+          "quebra": "Você entra no quadro andando rápido, para de frente para a câmera e estala os dedos. Texto no topo da tela: \"Para quem tem negócio no bairro\".",
+          "fala": "Tem gente do seu bairro comprando do seu concorrente agora.",
+          "fazer": "Comece a falar já parando na frente da câmera.",
+          "como": "Sobrancelha levantada, tom de alerta."
+        },
+        {
+          "etapa": "dor",
+          "fala": "Você posta todo dia, e quem curte é a sua família.",
+          "fazer": "Novo lugar, fachada de loja atrás.",
+          "como": "Tom mais baixo, meio sorriso de quem entende."
+        },
+        {
+          "etapa": "dor",
+          "fala": "Quem mora a duas quadras nem sabe que você existe.",
+          "fazer": "Aponta para a rua.",
+          "como": "Devagar, frase importante."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Por isso a gente criou o Anúncio Pronto.",
+          "fazer": "Novo lugar, andando.",
+          "como": "Tom sobe, sorriso."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "São modelos de anúncio que já venderam muito, em vários tipos de negócio.",
+          "fazer": "Parada, fachada atrás.",
+          "como": "Firme, frase importante."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Você responde 4 perguntas sobre o seu negócio, e a IA cria os seus anúncios prontos a partir desses modelos.",
+          "fazer": "Simula o toque no celular.",
+          "como": "Animada.",
+          "edicao": "Tela do gerador: as 4 perguntas sendo respondidas e a IA criando os anúncios prontos; Marcela pequena no canto."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Depois você ativa a ferramenta de anúncios e clica em alguns botões...",
+          "fazer": "Simula os toques no celular.",
+          "como": "Tranquila, mostrando que é fácil."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "...e o seu anúncio começa a aparecer pras pessoas do seu bairro, que chamam direto no seu WhatsApp.",
+          "fazer": "Faz um círculo com a mão e mostra o celular.",
+          "como": "Animada, ênfase em \"seu bairro\"."
+        },
+        {
+          "etapa": "prova",
+          "fala": "Olha aqui ó no celular: esses anúncios prontos a IA criou.",
+          "fazer": "Vira o celular para a câmera.",
+          "como": "Tom de quem mostra uma novidade.",
+          "edicao": "Anúncios prontos passando na tela; Marcela pequena no canto."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Pra liberar o seu acesso, é só clicar no botão aqui embaixo.",
+          "fazer": "Close, olhando a câmera.",
+          "como": "Aponta para baixo."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Começa com 10 reais por dia e tem 7 dias de garantia.",
+          "fazer": "Close.",
+          "como": "Tranquila."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Então clica aqui e libera o seu acesso agora.",
+          "fazer": "Close.",
+          "como": "Sorriso, aponta para baixo de novo."
+        }
+      ],
+      "extras": [
+        "O seu concorrente da mesma rua não é melhor que você. Ele só aparece.",
+        "Seu serviço é bom. Falta o bairro saber que você existe.",
+        "Por que o salão do lado, na mesma rua, vive cheio?"
+      ]
+    },
+    {
+      "cod": "V2",
+      "titulo": "Modelos de anúncio que já venderam.",
+      "angulo": "Demonstração (mostrando na prática)",
+      "dur": "cerca de 60 segundos",
+      "ideia": "Mostrar o produto funcionando, do jeito que mais aparece nos anúncios que vendem. Antes de gravar, gerar na ferramenta alguns anúncios prontos de verdade para mostrar no celular.",
+      "takes": [
+        {
+          "etapa": "gancho",
+          "fala": "Com 4 respostas, a IA cria anúncios prontos a partir de modelos que já venderam muito.",
+          "fazer": "Afasta o celular enquanto fala.",
+          "como": "Olhos arregalados, cara de \"olha isso\".",
+          "quebra": "O celular começa colado na câmera, mostrando um anúncio pronto; você afasta devagar. Texto na tela: \"Anúncio pronto com IA\"."
+        },
+        {
+          "etapa": "dor",
+          "fala": "Sabe aquele anúncio que você nunca fez porque não sabia mexer?",
+          "fazer": "Andando.",
+          "como": "Tom de quem entende."
+        },
+        {
+          "etapa": "dor",
+          "fala": "Ou porque não queria aparecer, ou porque gestor cobra caro?",
+          "fazer": "Andando.",
+          "como": "Conta nos dedos."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Agora é muito simples.",
+          "fazer": "Parada, fachada atrás.",
+          "como": "Sorriso, tom sobe."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Você responde 4 perguntas sobre o seu negócio, e a IA do Anúncio Pronto cria os seus anúncios.",
+          "fazer": "Simula o toque no celular.",
+          "como": "Animada.",
+          "edicao": "Tela do gerador: as 4 perguntas sendo respondidas e a IA criando os anúncios prontos; Marcela pequena no canto."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Depois você ativa a ferramenta de anúncios e clica em alguns botões...",
+          "fazer": "Simula os toques no celular.",
+          "como": "Tranquila, mostrando que é fácil."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "...e o seu anúncio começa a aparecer pras pessoas do seu bairro, que chamam direto no seu WhatsApp.",
+          "fazer": "Faz um círculo com a mão e mostra o celular.",
+          "como": "Animada, ênfase em \"seu bairro\"."
+        },
+        {
+          "etapa": "prova",
+          "fala": "Olha aqui ó: em menos de 30 minutos dá pra ter mais de 50 anúncios prontos.",
+          "fazer": "Vira o celular para a câmera.",
+          "como": "Ênfase em \"50\".",
+          "edicao": "Anúncios prontos passando na tela; Marcela pequena no canto."
+        },
+        {
+          "etapa": "prova",
+          "fala": "Sem aparecer, sem editar e sem computador.",
+          "fazer": "Parada.",
+          "como": "Uma batida de mão para cada item."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Se você também quer anúncios assim, é só clicar no botão aqui embaixo.",
+          "fazer": "Close.",
+          "como": "Aponta para baixo."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Começa com 10 reais por dia e tem 7 dias de garantia.",
+          "fazer": "Close.",
+          "como": "Tranquila."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Então clica aqui e libera o seu acesso agora.",
+          "fazer": "Close.",
+          "como": "Sorriso, aponta para baixo de novo."
+        }
+      ],
+      "extras": [
+        "Você não precisa criar anúncio do zero. Já tem modelo que vendeu.",
+        "Você não precisa aparecer pra anunciar o seu negócio."
+      ]
+    },
+    {
+      "cod": "V3",
+      "titulo": "Para de apertar o impulsionar.",
+      "angulo": "Contra o impulsionar",
+      "dur": "cerca de 60 segundos",
+      "ideia": "Mostrar que o botão impulsionar traz curtida, e não cliente do bairro.",
+      "takes": [
+        {
+          "etapa": "gancho",
+          "quebra": "Você vem andando e levanta a mão aberta para a câmera, como quem diz \"pare\". Texto na tela: \"Não aperte esse botão\".",
+          "fala": "Para de apertar o botão impulsionar.",
+          "fazer": "Mão levantada enquanto fala.",
+          "como": "Firme, quase uma bronca carinhosa."
+        },
+        {
+          "etapa": "dor",
+          "fala": "Você gasta 50 reais e ganha curtida de gente de outro estado.",
+          "fazer": "Parada.",
+          "como": "Cara de \"sério?\"."
+        },
+        {
+          "etapa": "dor",
+          "fala": "E curtida não marca horário.",
+          "fazer": "Parada.",
+          "como": "Pausa antes, frase seca."
+        },
+        {
+          "etapa": "dor",
+          "fala": "Aí você posta mais, e o cliente novo não chega.",
+          "fazer": "Novo lugar.",
+          "como": "Tom mais baixo."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "O que traz cliente é o anúncio que aparece pra quem mora perto...",
+          "fazer": "Andando.",
+          "como": "Tom sobe."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "...e que, em vez de pedir curtida, faz a pessoa chamar no seu WhatsApp.",
+          "fazer": "Mostra o celular.",
+          "como": "Animada."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "É isso que o Anúncio Pronto faz, com modelos que já venderam muito.",
+          "fazer": "Parada, fachada atrás.",
+          "como": "Sorriso."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Você responde 4 perguntas, e a IA cria os seus anúncios prontos.",
+          "fazer": "Simula o toque no celular.",
+          "como": "Animada.",
+          "edicao": "Tela do gerador: as 4 perguntas sendo respondidas e a IA criando os anúncios prontos; Marcela pequena no canto."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Aí você ativa a ferramenta de anúncios, clica em alguns botões, e ele começa a aparecer pro seu bairro.",
+          "fazer": "Círculo com a mão.",
+          "como": "Tranquila."
+        },
+        {
+          "etapa": "prova",
+          "fala": "Olha aqui ó os anúncios prontos que a IA criou.",
+          "fazer": "Vira o celular para a câmera.",
+          "como": "Tom de quem mostra uma novidade.",
+          "edicao": "Anúncios prontos passando na tela; Marcela pequena no canto."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Pra liberar o seu acesso, é só clicar no botão aqui embaixo.",
+          "fazer": "Close.",
+          "como": "Aponta para baixo."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Começa com 10 reais por dia e tem 7 dias de garantia.",
+          "fazer": "Close.",
+          "como": "Meio sorriso."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Então clica aqui e libera o seu acesso agora.",
+          "fazer": "Close.",
+          "como": "Sorriso, aponta para baixo de novo."
+        }
+      ],
+      "extras": [
+        "O botão impulsionar queimou os seus 50 reais.",
+        "Postar todo dia não traz cliente do bairro. Eu te explico."
+      ]
+    },
+    {
+      "cod": "V4",
+      "titulo": "Black Friday não é só pra loja grande.",
+      "angulo": "Black Friday (data real)",
+      "dur": "cerca de 60 segundos",
+      "ideia": "Usar a data real (27 de novembro) para o pequeno negócio anunciar também.",
+      "takes": [
+        {
+          "etapa": "gancho",
+          "quebra": "Você passa na frente de uma vitrine, para de repente e aponta para ela. Texto na tela: \"Black Friday: 27 de novembro\".",
+          "fala": "A Black Friday é dia 27. E as lojas grandes já tão anunciando.",
+          "fazer": "Fala enquanto aponta a vitrine.",
+          "como": "Tom de notícia."
+        },
+        {
+          "etapa": "dor",
+          "fala": "E o negócio pequeno do bairro fica de fora.",
+          "fazer": "Parada, fachada pequena atrás.",
+          "como": "Tom mais baixo."
+        },
+        {
+          "etapa": "dor",
+          "fala": "Porque não tem gestor, não tem tempo e não sabe fazer anúncio.",
+          "fazer": "Parada.",
+          "como": "Conta nos dedos."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Não precisa ser assim. O Anúncio Pronto tem modelos de anúncio que já venderam muito.",
+          "fazer": "Novo lugar, andando.",
+          "como": "Balança a cabeça, depois sorri e o tom sobe."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Você responde 4 perguntas, e a IA cria os anúncios prontos da sua Black Friday.",
+          "fazer": "Simula o toque no celular.",
+          "como": "Animada.",
+          "edicao": "Tela do gerador: as 4 perguntas sendo respondidas e a IA criando os anúncios prontos; Marcela pequena no canto."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "Depois você ativa a ferramenta de anúncios e clica em alguns botões...",
+          "fazer": "Simula os toques no celular.",
+          "como": "Tranquila, mostrando que é fácil."
+        },
+        {
+          "etapa": "solucao",
+          "fala": "...e o seu anúncio começa a aparecer pras pessoas do seu bairro, que chamam direto no seu WhatsApp.",
+          "fazer": "Faz um círculo com a mão e mostra o celular.",
+          "como": "Animada, ênfase em \"seu bairro\"."
+        },
+        {
+          "etapa": "prova",
+          "fala": "Olha aqui ó: em menos de 30 minutos dá pra ter mais de 50 anúncios prontos.",
+          "fazer": "Vira o celular para a câmera.",
+          "como": "Ênfase em \"50\".",
+          "edicao": "Anúncios prontos passando na tela; Marcela pequena no canto."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Pra liberar o seu acesso, é só clicar no botão aqui embaixo.",
+          "fazer": "Close.",
+          "como": "Aponta para baixo."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Ativa hoje e começa a aparecer antes do dia 27. E tem 7 dias de garantia.",
+          "fazer": "Close.",
+          "como": "Urgência leve."
+        },
+        {
+          "etapa": "cta",
+          "fala": "Então clica aqui e libera o seu acesso agora.",
+          "fazer": "Close.",
+          "como": "Sorriso, aponta para baixo de novo."
+        }
+      ],
+      "extras": [
+        "Faltam menos de 4 semanas pra Black Friday. Seu negócio já tem anúncio?",
+        "Black Friday não é só de quem tem gestor de tráfego."
+      ]
+    }
+  ],
+  "broll": [
+    "Fachadas de comércio pequeno do bairro (salão, doceria, oficina, pet), sem focar o nome.",
+    "Rua movimentada, gente passando.",
+    "Você andando e olhando o celular.",
+    "O celular na sua mão, só na tela inicial (sem conversa de cliente).",
+    "Sua mão digitando no celular."
+  ],
+  "depois": [
+    "Gravar a tela do celular usando o gerador: as 4 perguntas sendo respondidas e a IA criando os anúncios prontos. É a prova de todos os vídeos e o fundo onde você aparece pequena no canto.",
+    "Antes de gravar o V2: gerar alguns anúncios prontos de verdade na ferramenta, para mostrar no celular."
+  ],
+  "legenda": "[gancho do vídeo]\n\nO Anúncio Pronto tem modelos de anúncio que já venderam muito, em vários tipos de negócio. Você responde 4 perguntas sobre o seu negócio e a IA cria os seus anúncios prontos a partir desses modelos. Em menos de 30 minutos você tem mais de 50, sem aparecer, sem editar e sem computador.\n\nDepois você ativa a ferramenta de anúncios, clica em alguns botões e o seu anúncio começa a aparecer para as pessoas do seu bairro, que chamam direto no seu WhatsApp. Começa com R$ 10 por dia.\n\nToque em Saiba mais.",
+  "titulo_anuncio": "Anúncios prontos com IA, de modelos que já venderam"
+}

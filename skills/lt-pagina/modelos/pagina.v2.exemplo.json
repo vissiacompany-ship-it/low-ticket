@@ -1,0 +1,325 @@
+{
+ "modelo": "v2",
+ "produto": "Instravel",
+ "titulo_aba": "Instravel (exemplo do modelo v2)",
+ "fonte": "Poppins",
+ "noindex": true,
+ "checkout": "https://pay.exemplo.com/SEU-CHECKOUT",
+ "rastreio": {
+  "meta_pixel_id": "",
+  "clarity_id": ""
+ },
+ "faixa_emoji": "✈️",
+ "faixa": "Exclusivo para quem ama viajar",
+ "hero": {
+  "titulo": "Poste [[fotos lindas]] e|criativas [[da sua viagem]]|em menos de [[15 segundos]]",
+  "titulo_pc": "Poste [[fotos lindas]] e criativas [[da sua viagem]]|em menos de [[15 segundos]]",
+  "sub": "[[Modelos prontos]] para cada momento|da viagem. Tire a foto, escolha e poste.",
+  "sub_pc": "[[Modelos prontos]] para cada momento da sua viagem.|É só tirar a foto, escolher o modelo, baixar e postar.",
+  "fundo": "assets/fundo-ceu.webp",
+  "vitrine": [
+   "assets/m1.webp",
+   "assets/m2.webp",
+   "assets/m3.webp",
+   "assets/m4.webp",
+   "assets/m5.webp",
+   "assets/m6.webp",
+   "assets/m7.webp",
+   "assets/m8.webp",
+   "assets/m9.webp",
+   "assets/m10.webp"
+  ],
+  "faixa_rolante": [
+   "assets/m11.webp",
+   "assets/m12.webp",
+   "assets/m13.webp",
+   "assets/m14.webp",
+   "assets/m15.webp",
+   "assets/m16.webp",
+   "assets/m17.webp",
+   "assets/m18.webp",
+   "assets/m19.webp",
+   "assets/m20.webp"
+  ],
+  "botao": "QUERO POSTAR FOTOS LINDAS ↓",
+  "botao_espera": 0
+ },
+ "depoimentos": {
+  "nota": {
+   "valor": "5,0",
+   "linha1": "+1.795 avaliações",
+   "linha2": "O app queridinho de quem {{ama viajar}} ✈️",
+   "ramo_esq": "assets/pena-esquerda.avif",
+   "ramo_dir": "assets/pena-direita.avif"
+  },
+  "titulo": "Veja as fotos de|{{quem já está usando!}} ✈️",
+  "titulo_pc": "Veja as fotos de {{quem já está usando!}} ✈️",
+  "prints": [
+   "assets/dep-1-inara.webp",
+   "assets/dep-2-elisa.webp",
+   "assets/dep-3-valentina.webp",
+   "assets/dep-4-mia.webp",
+   "assets/dep-5-kamila.webp"
+  ],
+  "comentarios": [
+   {
+    "nome": "Juliana Moraes",
+    "quando": "2 semanas atrás",
+    "texto": "Eu nunca soube tirar foto de viagem, sempre saía tudo torto e sem graça. Usei os modelos na minha ida pra Porto de Galinhas e todo mundo perguntou quem tinha editado 😅 melhor coisa!"
+   },
+   {
+    "nome": "Camila Ferraz",
+    "quando": "5 dias atrás",
+    "texto": "Comprei sem nem ter viagem marcada, só porque me apaixonei pelos modelos. Já usei em passeio de fim de semana aqui perto e ficou lindo demais."
+   },
+   {
+    "nome": "Rafaela Nunes",
+    "quando": "1 semana atrás",
+    "texto": "Eu perdia uns 40 minutos montando um story do zero. Agora é escolher o modelo, jogar as fotos e postar. Literalmente uns 15 segundos."
+   },
+   {
+    "nome": "Bruna Tavares",
+    "quando": "3 semanas atrás",
+    "texto": "Viajei pra Gramado e postei todos os dias sem estresse. O feed ficou com uma cara profissional que eu nunca consegui sozinha."
+   },
+   {
+    "nome": "Patrícia Lemos",
+    "quando": "4 dias atrás",
+    "texto": "Sem dúvida o melhor investimento que fiz esse ano. Uso quase todo dia, até em coisas que não são viagem."
+   },
+   {
+    "nome": "Larissa Aguiar",
+    "quando": "6 dias atrás",
+    "texto": "Minha viagem é só em dezembro mas já deixei tudo separado. Fiquei encantada com a variedade de modelos, tem pra praia, cidade, hotel, comidinha..."
+   }
+  ]
+ },
+ "categorias": {
+  "etiqueta": "Tudo em um só app ✈️",
+  "titulo": "[[+100 modelos de fotos]] lindas, criativos e personalizáveis 📷",
+  "titulo_pc": "[[+100 modelos de fotos]] lindas,|criativos e personalizáveis 📷",
+  "sub": "Tudo que você precisa para postar cada momento da sua viagem está dentro do app.",
+  "itens": [
+   {
+    "rotulo": "Partiu & Mala",
+    "emoji": "✈️",
+    "video": "assets/cat1-web.mp4",
+    "poster": "assets/cat1-web.webp"
+   },
+   {
+    "rotulo": "Aeroporto & Avião",
+    "emoji": "🛫",
+    "video": "assets/cat2-web.mp4",
+    "poster": "assets/cat2-web.webp"
+   },
+   {
+    "rotulo": "Hotel & Piscina",
+    "emoji": "🏨",
+    "video": "assets/cat3-web.mp4",
+    "poster": "assets/cat3-web.webp"
+   },
+   {
+    "rotulo": "Praia & Mar",
+    "emoji": "🏖️",
+    "video": "assets/cat4-web.mp4",
+    "poster": "assets/cat4-web.webp"
+   },
+   {
+    "rotulo": "Passeios & Lugares",
+    "emoji": "📍",
+    "video": "assets/cat5-web.mp4",
+    "poster": "assets/cat5-web.webp"
+   },
+   {
+    "rotulo": "Comidas & Drinks",
+    "emoji": "🍹",
+    "video": "assets/cat6-web.mp4",
+    "poster": "assets/cat6-web.webp"
+   },
+   {
+    "rotulo": "Natureza & Pôr do Sol",
+    "emoji": "🌅",
+    "video": "assets/cat7-web.mp4",
+    "poster": "assets/cat7-web.webp"
+   },
+   {
+    "rotulo": "Lifestyle & Colagens",
+    "emoji": "✨",
+    "video": "assets/cat8-web.mp4",
+    "poster": "assets/cat8-web.webp"
+   }
+  ],
+  "fecho": "{{Nunca mais perca tempo da sua viagem}} pensando no que postar ou criando post do zero. 😩"
+ },
+ "passos": {
+  "etiqueta": "Como funciona",
+  "titulo": "Veja como é simples postar uma foto linda em [[menos de 15 segundos]]",
+  "linha": "Veja como é fácil usar o app 👇",
+  "video": {
+   "embed": "https://player-vz-a09e1f77-feb.tv.pandavideo.com.br/embed/?v=99d56725-240d-4747-8849-54e3d092957b"
+  },
+  "itens": [
+   {
+    "icone": "smartphone",
+    "titulo": "Acesse o app"
+   },
+   {
+    "icone": "grid",
+    "titulo": "Escolha o modelo"
+   },
+   {
+    "icone": "camera",
+    "titulo": "Coloque sua foto"
+   },
+   {
+    "icone": "download",
+    "titulo": "Baixe e poste"
+   }
+  ],
+  "botao": {
+   "texto": "QUERO ACESSAR O APP AGORA ✈️",
+   "alvo": "bonus"
+  }
+ },
+ "bonus": {
+  "etiqueta": "E não para por aí...",
+  "titulo": "Além do app,|você ainda recebe|[[3 bônus exclusivos]] 🎁",
+  "titulo_pc": "Além do app, você ainda recebe|[[3 bônus exclusivos]] 🎁",
+  "itens": [
+   {
+    "rotulo": "Bônus 1",
+    "titulo": "Inspirações de Fotos",
+    "texto": "Cada modelo de Story acompanha um direcionamento de como tirar as melhores fotos e depois adaptá-las ao modelo.",
+    "imagem": "assets/bonus-1-instatravel.webp"
+   },
+   {
+    "rotulo": "Bônus 2",
+    "titulo": "Posts para o Feed",
+    "texto": "Modelos prontos de carrosséis para fazer colagens com suas fotos favoritas e deixar os melhores momentos da viagem registrados no seu Insta.",
+    "imagem": "assets/bonus-2-instatravel.webp"
+   },
+   {
+    "rotulo": "Bônus 3",
+    "titulo": "Tutorial Passo a Passo",
+    "texto": "Um tutorial completo mostrando como acessar, personalizar e baixar os modelos, explicando tudo o que você precisa saber.",
+    "imagem": "assets/bonus-3-instatravel.webp"
+   }
+  ]
+ },
+ "transicao": "Você está a um passo de ter [[fotos lindas e criativas]] para cada momento da sua próxima viagem. ✈️",
+ "oferta": {
+  "fundo": "assets/fundo-ceu.webp",
+  "parabens": "🎉 Parabéns!!! Você ganhou 54% OFF",
+  "cronometro_minutos": 15,
+  "mockup": "assets/mockup-oferta-instatravel.webp",
+  "logo": "assets/logo-instravel.webp",
+  "bonus_linha": "+3 bônus exclusivos",
+  "de": "147",
+  "avista": "67,00",
+  "parcelas": "12x",
+  "parcela": "6,73",
+  "economia": "R$80",
+  "botao": "QUERO POSTAR FOTOS LINDAS ✈️",
+  "pagamentos_img": "assets/icones-pay-i28QaqlJ.webp",
+  "alerta": "Promoção exclusiva nesta página.|Se fechar, o valor será R$ 147,00."
+ },
+ "garantia": {
+  "selo": "assets/7-dias-garantia.webp",
+  "titulo": "GARANTIA DE",
+  "titulo_destaque": "7 DIAS",
+  "texto": "Teste o app por 7 dias, conheça todos os modelos e veja como é fácil deixar suas fotos de viagem ainda mais lindas. Se achar que não é para você, é só solicitar o reembolso dentro do prazo e receber 100% do seu dinheiro de volta. ✈️"
+ },
+ "autor": {
+  "titulo": "Oie, eu sou a [[Kamila!]] 🤍",
+  "cargo": "Criadora do Instravel ✈️",
+  "foto": "assets/perfil.webp",
+  "paragrafos": [
+   "Sou apaixonada por viagens, já conheci vários lugares pelo mundo e, atualmente, estou conhecendo o Nordeste do nosso Brasil.",
+   "Depois de tantas viagens, percebi uma coisa: **a última coisa que a gente quer é perder tempo pensando no que postar ou criando Stories, posts e carrosséis do zero enquanto poderia estar aproveitando a viagem.**",
+   "E foi vivendo isso na prática, entre viagens, fotos e muitos perrengues 😂, que surgiu a ideia de criar um app 100% focado em viagens.",
+   "Um lugar onde você encontra **Stories, posts e carrosséis prontos para cada momento, inspirações de fotos e modelos para registrar e eternizar suas viagens no Instagram**, sem precisar pensar em tudo do zero.",
+   "Criei esse app para quem, assim como eu, ama viajar, registrar cada momento e quer aproveitar a viagem ao máximo. **Tenho certeza de que você vai amar ter ele nas suas próximas viagens.** ✈️🤍"
+  ]
+ },
+ "faq": {
+  "etiqueta": "Ainda tem dúvidas?",
+  "titulo": "Perguntas frequentes",
+  "itens": [
+   [
+    "Como recebo acesso ao app?",
+    "Assim que seu pagamento for aprovado, você recebe o acesso no e-mail informado na compra para acessar a plataforma e baixar o app no seu celular."
+   ],
+   [
+    "Os modelos já vêm prontos?",
+    "Sim. Os modelos já estão prontos para você personalizar com suas fotos ou vídeos e postar."
+   ],
+   [
+    "E se eu não souber que foto tirar?",
+    "Você terá inspirações de fotos para usar como referência durante a viagem."
+   ],
+   [
+    "Posso acessar pelo celular?",
+    "Claro! O app foi criado justamente para você ter tudo na palma da mão durante a viagem."
+   ],
+   [
+    "Funciona em Android e iOS?",
+    "Sim! O app funciona tanto em Android quanto em iOS e não ocupa espaço com uma instalação pesada. 😂📷"
+   ],
+   [
+    "Tem mensalidade?",
+    "Não. Você paga uma única vez, sem mensalidades."
+   ],
+   [
+    "Por quanto tempo terei acesso?",
+    "Você terá acesso ao app por 1 ano."
+   ],
+   [
+    "O produto tem garantia?",
+    "Sim. Você tem 7 dias de garantia."
+   ]
+  ]
+ },
+ "rodape": {
+  "logo": "assets/logo-instravel.webp",
+  "marca": "INSTRAVEL",
+  "empresa": "VIRTUWEY LTDA",
+  "cnpj": "53.149.554/0001-11",
+  "politica": "",
+  "termos": ""
+ },
+ "flutuante": [
+  "depoimentos",
+  "bonus"
+ ],
+ "_leia": "Exemplo do modelo v2 com o conteúdo do Instravel (referência, não é oferta nossa). Copie, troque textos, imagens e cores. Marcação: [[destaque]], {{destaque simples}}, **negrito**, | quebra de linha; campos *_pc valem para o computador. Ícones dos passos: smartphone, grid, camera, download, mensagem, editar, enviar, play, estrela, check, arquivo, coracao (ou um emoji).",
+ "cores": {
+  "primaria": "#FF7043",
+  "destaque_foto": "#FFF3A6",
+  "acento": "#28C9E6",
+  "texto": "hsl(213 56% 40%)",
+  "titulo_escuro": "hsl(217 62% 19%)",
+  "clara": "#A8E6FF",
+  "clara_fundo": "#DCF1FB",
+  "mundo": "#2C5F9E",
+  "pausa": "#12294F"
+ },
+ "whatsapp": {
+  "numero": "",
+  "titulo": "Ficou com alguma dúvida?",
+  "botao": "Falar no WhatsApp"
+ },
+ "ordem": [
+  "topo",
+  "depoimentos",
+  "categorias",
+  "passos",
+  "bonus",
+  "transicao",
+  "oferta",
+  "garantia",
+  "autor",
+  "faq",
+  "whatsapp",
+  "rodape"
+ ]
+}

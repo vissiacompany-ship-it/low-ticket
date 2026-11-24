@@ -1,0 +1,7 @@
+{
+  "name": "vissia-low-ticket",
+  "owner": { "name": "Vissia" },
+  "plugins": [
+    { "name": "low-ticket", "source": "./", "description": "Esteira low ticket: oferta, copy, página, criativos e checkout." }
+  ]
+}
